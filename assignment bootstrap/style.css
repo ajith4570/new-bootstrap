@@ -1,0 +1,106 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-links {
+    padding-right: 14px;
+}
+
+.nav-item a:hover,
+.smallcard-heading:hover {
+    color: hsl(5, 85%, 63%) !important;
+}
+
+
+/* HOME-PAGE */
+
+h4 {
+    color: hsl(233, 8%, 79%);
+}
+
+.softorange,
+.smallcard-heading {
+    cursor: pointer;
+}
+
+h2,
+.softorange:hover {
+    color: hsl(35, 77%, 62%) !important;
+}
+
+.desktop-image {
+    height: 280px;
+    width: 755px;
+}
+
+.heading {
+    font-weight: 800;
+    font-size: 50px !important;
+    color: hsl(240, 100%, 5%);
+}
+
+.paragraph {
+    font-size: 15px;
+    color: #7D7C86 !important;
+}
+
+.readmorebtn {
+    font-size: 14px !important;
+    padding: 0.75rem 0 0.75rem 0 !important;
+    border-radius: 0px !important;
+    background-color: hsl(5, 85%, 63%) !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.readmorebtn:hover {
+    background-color: hsl(240, 100%, 5%) !important;
+}
+
+.para-section {
+    padding-right: 20px !important;
+}
+
+
+/* SIDE-CARD */
+
+.homepage-card {
+    border-radius: 0 !important;
+    background-color: hsl(240, 100%, 5%) !important;
+    color: white !important;
+}
+
+.side-card {
+    padding-left: 35px !important
+}
+
+.smallcard-img {
+    height: 100px;
+    width: 96px;
+}
+
+.smallcard {
+    border: none !important;
+}
+
+.smallcard-heading {
+    font-weight: 700 !important;
+}
+
+.smallcard-para {
+    font-size: 13px !important;
+}
+
+@media only screen and (max-width: 450px) {
+    .side-card {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 11px !important;
+        padding-right: 11px !important;
+    }
+    .desktop-image {
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
